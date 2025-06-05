@@ -1,0 +1,263 @@
+:root{
+    --orange:#FE5D26;
+    --white:white;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.start{
+    background-image:url(pexels-ekaterina-bolovtsova-6192331.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100lvh;
+}
+h2{
+    color: var(--orange);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   flex:2;
+   padding-left: 14px;
+   min-width: 400px;
+
+}
+.fa-brain{
+    color: var(--orange);
+    padding-left: 6px;
+
+}
+.sup{
+    color: var(--white);
+    text-decoration: none;
+    flex:1;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.sup:hover{
+    color: var(--orange);
+}
+.btn{
+    background-color: var(--orange);
+    border-color: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    
+}
+.btn:hover{
+    color: var(--orange);
+    background-color: var(--white);
+    border-color: var(--white);
+
+}
+.first{
+    display:flex;
+    
+
+}
+nav{
+    flex:3;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.sear{
+    border-radius: 6px;
+    border-color: var(--white);
+   
+}
+.sear::placeholder{
+    color: gray;
+}
+
+
+
+
+h1{
+    color: var(--white);
+    font-size: 48px;
+}
+.dev{
+    color: var(--orange);
+    position: relative;
+    bottom:1.4em;
+}
+.cor{
+    color: var(--white);
+    position: relative;
+    bottom: 2.8em;
+}
+.para{
+    color: var(--white);
+    font-weight: bold;
+    position: relative;
+    bottom: 10em;
+}
+.but{
+    background-color: var(--orange);
+    border-color: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    padding:6px;
+    font-size: large;
+    width:13%;
+    position: relative;
+    bottom: 8em;
+}
+.but:hover{
+    color: var(--orange);
+    background-color: var(--white);
+    border-color: var(--white);
+
+}
+.web{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+    padding-left:6%;
+} 
+
+
+
+.box{
+    width:28%;
+    height:56%;
+    background: linear-gradient(to top,rgb(0,0,0,0.8)50%,rgb(0,0,0,0.8)50%);
+    position:absolute;
+    left:60%;
+    bottom:20%;
+    border-radius: 20px;
+}
+h4{
+    color: var(--orange);
+    text-align: center;
+    font-size: large;
+}
+.email{
+    width:240px;
+    height:34px;
+    background: transparent;
+    border-bottom: 1.8px solid var(--orange);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 8px;
+    color:var(--white);
+    
+}
+.email:focus{
+    outline:none;
+}
+.email::placeholder{
+    color: var(--white);
+}
+
+form{
+    display: grid;
+    place-items: center;
+}
+
+
+
+
+.in{
+    color:var(--white);
+    background-color: var(--orange);
+    border-color: var(--orange);
+    cursor: pointer;
+    position:relative;
+    top: 8px;
+    padding: 10px;
+    width:16em;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+.in:hover{
+    color:var(--orange);
+    background-color: var(--white);
+    border-color: var(--white);
+}
+.account{
+    color: var(--white);
+    position:relative;
+    top: 8px;
+    font-weight: bold;
+    position: relative;
+   
+
+}
+.sap{
+    color: var(--orange);
+    text-decoration: none;
+    
+    font-weight: bold;
+    position: relative;
+    top:0.0em;
+}
+.with{
+    color: var(--white);
+    position:relative;
+    top: 8px;
+    font-weight: bold;
+    position: relative;
+   
+}
+.fa-facebook{
+   color: var(--white);
+    cursor: pointer;
+    position: relative;
+    position: relative;
+    left:2em;
+    top: 0.4em;
+}
+.fa-instagram{
+    color: var(--white);
+    cursor: pointer;
+    position: relative;
+    left:4em;
+    top:0.4em
+    
+    
+}
+.fa-twitter{
+    color: var(--white);
+    cursor: pointer;
+    position: relative;
+    left:6em;
+    top:0.4em
+    
+    
+}
+.fa-google{
+    color: var(--white);
+    cursor: pointer;
+    position: relative;
+    left:8em;
+    top:0.4em
+    
+}
+
+
+
+.fa-facebook:hover{
+    color: var(--orange);
+}
+.fa-instagram:hover{
+    color: var(--orange);
+}
+.fa-twitter:hover{
+    color: var(--orange);
+}
+.fa-google:hover{
+    color: var(--orange);
+}
+
+
+
